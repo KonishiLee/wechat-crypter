@@ -4,11 +4,11 @@
 ## Usage
 
 ```bash
-$ go get github.com/heroicyang/wechat-crypter
+$ go get github.com/KonishiLee/wechat-crypter
 ```
 
 ```go
-import "github.com/heroicyang/wechat-crypter"
+import "github.com/KonishiLee/wechat-crypter"
 
 token := "RMNlACHlV5ThzfRlVS4D4"
 corpID := "wx5823bf96d3bd56c7"
@@ -19,4 +19,4 @@ msgDecrypt, corpID, err := msgCrypter.Decrypt("msgEncrypt")
 ```
 
 ## Doc
-[http://godoc.org/github.com/heroicyang/wechat-crypter](http://godoc.org/github.com/heroicyang/wechat-crypter)
+[http://godoc.org/github.com/KonishiLee/wechat-crypter](http://godoc.org/github.com/KonishiLee/wechat-crypter)
